@@ -1,23 +1,17 @@
-﻿using WhoUseThis.Views;
-using Prism.Ioc;
-using Prism.Modularity;
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows;
 
 namespace WhoUseThis
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    /// App.xaml の相互作用ロジック
     /// </summary>
-    public partial class App
+    public partial class App : Application
     {
-        protected override Window CreateShell()
-        {
-            return Container.Resolve<MainWindow>();
-        }
-
-        protected override void RegisterTypes(IContainerRegistry containerRegistry)
-        {
-
-        }
     }
 }
