@@ -1,7 +1,7 @@
-﻿<Application x:Class="WhoUseThis.App"
+﻿<Application x:Class="WhoLockIt.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WhoUseThis"
+             xmlns:local="clr-namespace:WhoLockIt"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

@@ -17,7 +17,7 @@ using System.Windows.Navigation;
 
 using ProcessLibrary;
 
-namespace WhoUseThis
+namespace WhoLockIt
 {
     /// <summary>
     /// MainWindow.xaml の相互作用ロジック

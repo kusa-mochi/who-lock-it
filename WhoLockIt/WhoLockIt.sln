@@ -1,16 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessLibrary", "ProcessLibrary\ProcessLibrary.csproj", "{F287B5FD-EB19-4E01-89A5-B483E9880C34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhoUseThis", "WhoUseThis\WhoUseThis.csproj", "{FC78ED22-FF9F-4FE6-8CAB-542A9705CEA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhoLockIt", "WhoLockIt\WhoLockIt.csproj", "{FC78ED22-FF9F-4FE6-8CAB-542A9705CEA0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F287B5FD-EB19-4E01-89A5-B483E9880C34} = {F287B5FD-EB19-4E01-89A5-B483E9880C34}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhoUseThisCUI", "WhoUseThisCUI\WhoUseThisCUI.csproj", "{8A13AC64-F320-41F0-8038-0FE84E6EF5F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhoLockItCUI", "WhoLockItCUI\WhoLockItCUI.csproj", "{8A13AC64-F320-41F0-8038-0FE84E6EF5F2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F287B5FD-EB19-4E01-89A5-B483E9880C34} = {F287B5FD-EB19-4E01-89A5-B483E9880C34}
 	EndProjectSection

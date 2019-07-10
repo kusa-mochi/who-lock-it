@@ -8,7 +8,7 @@ using System.Windows;
 
 using ProcessLibrary;
 
-namespace WhoUseThisCUI
+namespace WhoLockItCUI
 {
     class Program
     {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 using Prism.Mvvm;
 
-namespace WhoUseThis
+namespace WhoLockIt
 {
     public class FileList : BindableBase
     {
