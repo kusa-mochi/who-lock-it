@@ -24,7 +24,10 @@ namespace WhoLockItGUI
 
         public MainWindowVM(List<FileProcess> fileList)
         {
+#if DEBUG
             MyDebugger.DumpList(fileList);
+#endif
+
             _FileProcessList = new ObservableCollection<FileProcess>(fileList);
         }
     }

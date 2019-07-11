@@ -32,7 +32,9 @@ namespace WhoLockItGUI
 
             List<string> fileList = ArgsToFileList(e.Args);
 
+#if DEBUG
             MyDebugger.DumpList(fileList);
+#endif
 
             List<FileProcess> fileProcessList = null;
             fileProcessList = GetFileProcessList(fileList);
@@ -48,7 +50,9 @@ namespace WhoLockItGUI
                 return;
             }
 
+#if DEBUG
             MyDebugger.DumpList(fileProcessList);
+#endif
 
             MainWindow win = new MainWindow(fileProcessList);
             win.ShowDialog();
