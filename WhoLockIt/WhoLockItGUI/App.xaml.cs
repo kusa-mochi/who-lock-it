@@ -43,7 +43,7 @@ namespace WhoLockItGUI
             if (fileProcessList == null)
             {
                 MessageBox.Show(
-                    "ロックされているファイルはありませんでした！",
+                    fileList.Count == 1 ? "このファイルはロックされていません。" : "ロックされているファイルはありませんでした！",
                     "ロックされていません"
                     );
                 Current.Shutdown(0);
