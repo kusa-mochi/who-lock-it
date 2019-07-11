@@ -7,8 +7,8 @@
     <ProjectGuid>{8A13AC64-F320-41F0-8038-0FE84E6EF5F2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WhoUseThisCUI</RootNamespace>
-    <AssemblyName>WhoUseThisCUI</AssemblyName>
+    <RootNamespace>WhoLockItCUI</RootNamespace>
+    <AssemblyName>WhoLockItCUI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,7 +36,7 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\who-use-this.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\who-lock-it.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationFramework" />
@@ -75,10 +75,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\who-use-this.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\who-use-this.ico" />
+    <None Include="Resources\who-lock-it.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

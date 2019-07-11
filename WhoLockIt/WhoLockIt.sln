@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29025.244
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessLibrary", "ProcessLibrary\ProcessLibrary.csproj", "{F287B5FD-EB19-4E01-89A5-B483E9880C34}"
 EndProject
@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhoLockIt", "WhoLockIt\WhoL
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhoLockItCUI", "WhoLockItCUI\WhoLockItCUI.csproj", "{8A13AC64-F320-41F0-8038-0FE84E6EF5F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F287B5FD-EB19-4E01-89A5-B483E9880C34} = {F287B5FD-EB19-4E01-89A5-B483E9880C34}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhoLockItGUI", "WhoLockItGUI\WhoLockItGUI.csproj", "{3D72C846-F995-413E-9CE3-DA0C1C29B1C6}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F287B5FD-EB19-4E01-89A5-B483E9880C34} = {F287B5FD-EB19-4E01-89A5-B483E9880C34}
 	EndProjectSection
@@ -33,6 +38,10 @@ Global
 		{8A13AC64-F320-41F0-8038-0FE84E6EF5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A13AC64-F320-41F0-8038-0FE84E6EF5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A13AC64-F320-41F0-8038-0FE84E6EF5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D72C846-F995-413E-9CE3-DA0C1C29B1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D72C846-F995-413E-9CE3-DA0C1C29B1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D72C846-F995-413E-9CE3-DA0C1C29B1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D72C846-F995-413E-9CE3-DA0C1C29B1C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
