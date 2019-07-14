@@ -13,14 +13,11 @@ using WhoLockItGUI.Properties;
 
 namespace WhoLockItGUI
 {
-    /// <summary>
-    /// App.xaml の相互作用ロジック
-    /// </summary>
     public partial class App : Application
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            // コマンドライン引数が指定されていない場合
+            // if there are no args
             if (e.Args.Length == 0)
             {
                 MessageBox.Show(
@@ -40,7 +37,7 @@ namespace WhoLockItGUI
             List<FileProcess> fileProcessList = null;
             fileProcessList = GetFileProcessList(fileList);
 
-            // どのファイルもロックされていない場合
+            // if there are no locked files
             if (fileProcessList == null)
             {
                 MessageBox.Show(
