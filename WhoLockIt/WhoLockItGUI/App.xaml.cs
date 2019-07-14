@@ -44,8 +44,8 @@ namespace WhoLockItGUI
             if (fileProcessList == null)
             {
                 MessageBox.Show(
-                    fileList.Count == 1 ? "このファイルはロックされていません。" : "ロックされているファイルはありませんでした！",
-                    "ロックされていません"
+                    fileList.Count == 1 ? WhoLockItGUI.Properties.Resources.NotLockedMessageSingle : WhoLockItGUI.Properties.Resources.NotLockedMessageMulti,
+                    WhoLockItGUI.Properties.Resources.NotLockedCaption
                     );
                 Current.Shutdown(0);
                 return;

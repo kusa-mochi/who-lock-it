@@ -79,7 +79,52 @@ namespace WhoLockItGUI.Properties {
         }
         
         /// <summary>
-        ///   There are locked files に類似しているローカライズされた文字列を検索します。
+        ///   File に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string File {
+            get {
+                return ResourceManager.GetString("File", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Not Locked に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string NotLockedCaption {
+            get {
+                return ResourceManager.GetString("NotLockedCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   There are no locked files. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string NotLockedMessageMulti {
+            get {
+                return ResourceManager.GetString("NotLockedMessageMulti", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   This file is not locked. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string NotLockedMessageSingle {
+            get {
+                return ResourceManager.GetString("NotLockedMessageSingle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   a file is locked by.. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Process {
+            get {
+                return ResourceManager.GetString("Process", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   There are some locked files に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WindowTitle {
             get {

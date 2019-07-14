@@ -10,14 +10,14 @@
     <Grid>
         <DataGrid ItemsSource="{Binding FileProcessList}" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTemplateColumn Header="ファイル" SortMemberPath="FilePath" Width="200">
+                <DataGridTemplateColumn Header="{x:Static props:Resources.File}" SortMemberPath="FilePath" Width="200">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding FilePath}"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="ロックしているプログラム" SortMemberPath="ProcessName" Width="*">
+                <DataGridTemplateColumn Header="{x:Static props:Resources.Process}" SortMemberPath="ProcessName" Width="*">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding ProcessName}"/>

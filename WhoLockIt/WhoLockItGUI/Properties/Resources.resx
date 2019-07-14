@@ -123,7 +123,22 @@
   <data name="ArgsErrorMessage" xml:space="preserve">
     <value>Drag &amp; Drop files or directories to this exe file.</value>
   </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="NotLockedCaption" xml:space="preserve">
+    <value>Not Locked</value>
+  </data>
+  <data name="NotLockedMessageMulti" xml:space="preserve">
+    <value>There are no locked files.</value>
+  </data>
+  <data name="NotLockedMessageSingle" xml:space="preserve">
+    <value>This file is not locked.</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>a file is locked by..</value>
+  </data>
   <data name="WindowTitle" xml:space="preserve">
-    <value>There are locked files</value>
+    <value>There are some locked files</value>
   </data>
 </root>

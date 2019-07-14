@@ -123,6 +123,21 @@
   <data name="ArgsErrorMessage" xml:space="preserve">
     <value>このexeファイルに、何か別のファイルまたはフォルダをドラッグ＆ドロップしてください。</value>
   </data>
+  <data name="File" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="NotLockedCaption" xml:space="preserve">
+    <value>ロックされていません</value>
+  </data>
+  <data name="NotLockedMessageMulti" xml:space="preserve">
+    <value>ロックされているファイルはありませんでした！</value>
+  </data>
+  <data name="NotLockedMessageSingle" xml:space="preserve">
+    <value>このファイルはロックされていません。</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>ロックしているプログラム</value>
+  </data>
   <data name="WindowTitle" xml:space="preserve">
     <value>ロックされているファイルがあります</value>
   </data>
