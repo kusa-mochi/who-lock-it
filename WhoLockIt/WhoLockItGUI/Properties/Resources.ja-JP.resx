@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ArgsErrorCaption" xml:space="preserve">
-    <value>お願い</value>
+    <value>使い方</value>
   </data>
   <data name="ArgsErrorMessage" xml:space="preserve">
     <value>このexeファイルに、何か別のファイルまたはフォルダをドラッグ＆ドロップしてください。</value>
