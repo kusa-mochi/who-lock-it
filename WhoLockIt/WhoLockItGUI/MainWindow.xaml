@@ -3,9 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:props="clr-namespace:WhoLockItGUI.Properties"
         xmlns:local="clr-namespace:WhoLockItGUI"
         mc:Ignorable="d"
-        Title="ロックされているファイルがあります" Height="350" Width="525">
+        Title="{x:Static props:Resources.WindowTitle}" Height="350" Width="525">
     <Grid>
         <DataGrid ItemsSource="{Binding FileProcessList}" AutoGenerateColumns="False">
             <DataGrid.Columns>

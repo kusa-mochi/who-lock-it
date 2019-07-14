@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows;
 
 using ProcessLibrary;
+using WhoLockItGUI.Properties;
 
 namespace WhoLockItGUI
 {
@@ -23,9 +24,9 @@ namespace WhoLockItGUI
             if (e.Args.Length == 0)
             {
                 MessageBox.Show(
-                    "このexeファイルに、何か別のファイルまたはフォルダをドラッグ＆ドロップしてください。",
-                    "お願い"
-                    );
+                    WhoLockItGUI.Properties.Resources.ArgsErrorMessage,
+                    WhoLockItGUI.Properties.Resources.ArgsErrorCaption
+                );
                 Current.Shutdown(1);
                 return;
             }

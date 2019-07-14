@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ArgsErrorCaption" xml:space="preserve">
-    <value>Usage</value>
+    <value>お願い</value>
   </data>
   <data name="ArgsErrorMessage" xml:space="preserve">
-    <value>Drag &amp; Drop files or directories to this exe file.</value>
+    <value>このexeファイルに、何か別のファイルまたはフォルダをドラッグ＆ドロップしてください。</value>
   </data>
   <data name="WindowTitle" xml:space="preserve">
-    <value>There are locked files</value>
+    <value>ロックされているファイルがあります</value>
   </data>
 </root>
