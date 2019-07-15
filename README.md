@@ -26,4 +26,4 @@ The "Who Lock It" is a Windows Desktop program (*.exe) to find which program is 
 
 ## License
 
-![GPL3.0](https://github.com/kusa-mochi/who-lock-it/blob/master/LICENSE)
+[GPL3.0](https://github.com/kusa-mochi/who-lock-it/blob/master/LICENSE)
