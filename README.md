@@ -22,3 +22,5 @@ The "Who Lock It" is a Windows Desktop program (*.exe) to find which program is 
     ![drag and drop to EXE](https://github.com/kusa-mochi/images-for-documents/raw/master/drag-and-drop-to-wholockitexe.PNG "drag and drop to EXE")
 
 ## License
+
+![GPL3.0](https://github.com/kusa-mochi/who-lock-it/blob/master/LICENSE)
