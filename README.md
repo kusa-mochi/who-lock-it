@@ -13,7 +13,7 @@ The "Who Lock It" is a Windows Desktop program (*.exe) to find which program is 
 ## How to install
 
 1. Move program files (WhoLockIt folder) to a location you like.
-1. Make a shortcut file to WhoLockIt.exe in your desktop.
+1. Make a shortcut file to WhoLockIt.exe in any directory you like (ex: Desktop).
 
 ## How to use
 
