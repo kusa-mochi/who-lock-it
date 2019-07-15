@@ -12,6 +12,4 @@ The "Who Lock It" is a Windows Desktop program (*.exe) to find which program is 
 
 ## How to use
 
-## How to build
-
 ## License
