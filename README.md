@@ -20,7 +20,7 @@ The "Who Lock It" is a Windows Desktop program (*.exe) to find which program is 
 1. Drag and drop folders/files that you want to know which program is locking.
     
     ![drag and drop to EXE](https://github.com/kusa-mochi/images-for-documents/raw/master/drag-and-drop-to-wholockitexe.PNG "drag and drop to EXE")
-1. If there are locked files in droped items(files/folders), a result window is shown. Left column has paths of files, right column has names of processes that lock files.
+1. If there are locked files in droped items(files/folders), a result list is shown. Left column has paths of files, right column has names of processes that lock files. Unlocked files is not shown in the list.
     
     ![result window](https://github.com/kusa-mochi/images-for-documents/raw/master/result-who-lock-it.PNG "result window")
 
