@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProcessLibrary", "U
 		{F287B5FD-EB19-4E01-89A5-B483E9880C34} = {F287B5FD-EB19-4E01-89A5-B483E9880C34}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManager", "ProcessManager\ProcessManager.csproj", "{082E5879-07B4-46B4-9BBE-C1947E29FFEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7FC9D8C7-5B86-48BC-A2BF-CA4C72BB3115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC9D8C7-5B86-48BC-A2BF-CA4C72BB3115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC9D8C7-5B86-48BC-A2BF-CA4C72BB3115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082E5879-07B4-46B4-9BBE-C1947E29FFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082E5879-07B4-46B4-9BBE-C1947E29FFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082E5879-07B4-46B4-9BBE-C1947E29FFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082E5879-07B4-46B4-9BBE-C1947E29FFEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
