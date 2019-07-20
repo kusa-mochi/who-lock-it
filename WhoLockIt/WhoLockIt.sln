@@ -17,6 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProcessLibrary", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManager", "ProcessManager\ProcessManager.csproj", "{082E5879-07B4-46B4-9BBE-C1947E29FFEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProcessManager", "UnitTestProcessManager\UnitTestProcessManager.csproj", "{118F8833-D75C-4987-AF35-8D775A1437DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{082E5879-07B4-46B4-9BBE-C1947E29FFEF} = {082E5879-07B4-46B4-9BBE-C1947E29FFEF}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +44,10 @@ Global
 		{082E5879-07B4-46B4-9BBE-C1947E29FFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{082E5879-07B4-46B4-9BBE-C1947E29FFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{082E5879-07B4-46B4-9BBE-C1947E29FFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118F8833-D75C-4987-AF35-8D775A1437DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118F8833-D75C-4987-AF35-8D775A1437DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118F8833-D75C-4987-AF35-8D775A1437DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118F8833-D75C-4987-AF35-8D775A1437DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
