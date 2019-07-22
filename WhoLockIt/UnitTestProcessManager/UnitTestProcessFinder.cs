@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using ProcessManager;
+using ProcessManagerCLR;
 
 namespace UnitTestProcessManager
 {
@@ -15,7 +15,8 @@ namespace UnitTestProcessManager
         [TestMethod]
         public void TestOpenedFile()
         {
-            List<string> processNames = ProcessFinder.FindLockingProcessNames(_openedFilePath);
+            ProcessFinderCLR f = new ProcessFinderCLR();
+            f.FuncA();
         }
 
         [TestMethod]

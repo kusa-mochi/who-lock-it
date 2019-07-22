@@ -8,7 +8,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-using ProcessLibrary;
 using WhoLockItGUI.Properties;
 
 namespace WhoLockItGUI
