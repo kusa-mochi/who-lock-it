@@ -2,7 +2,7 @@
 
 ## What is this ?
 
-When you rename/delete folder , you've seen a window like this, haven't you ?
+When you try to rename/delete folder , you've seen a window like this, haven't you ?
 
 ![folder in use](https://github.com/kusa-mochi/images-for-documents/raw/master/FolderInUse.PNG "folder in use")
 
